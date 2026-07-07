@@ -15,7 +15,7 @@ cask "sane-break" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Sane Break.app"
   binary "#{appdir}/Sane Break.app/Contents/MacOS/sane-break", target: "sane-break"
