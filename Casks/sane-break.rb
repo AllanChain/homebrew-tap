@@ -1,9 +1,9 @@
 cask "sane-break" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.10.4"
-  sha256 arm:   "3edd2eb617698de9394aacc211c54b58196e6e81b265045c3f3fce1e545871b0",
-         intel: "715f5855f9811368010a301e5bf4e423dd9536ce8a9fae4228c581ae861a17b3"
+  version "0.10.5"
+  sha256 arm:   "d8e454c1802bf8659f7d3a16af00131da54c4a9c5bb09d81443e295182a2d0c6",
+         intel: "19479d1965fa9edbadf5a3a7020ec083ac32ad7ca41997c5776a51f17a95c8da"
 
   url "https://github.com/AllanChain/sane-break/releases/download/v#{version}/sane-break-macos-#{arch}.dmg"
   name "Sane Break"
